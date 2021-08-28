@@ -1,6 +1,5 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -16,7 +15,7 @@ const Footer = () => {
                 <a href="https://github.com/akshay094" className="text-light fw-bold text-decoration-none">Github</a>
               </Col>
               <Col>
-                <a className="text-light fw-bold text-decoration-none">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/akshay-kanojia-2a019bb3/" className="text-light fw-bold text-decoration-none">LinkedIn</a>
               </Col>
             </Row>
           </Col>

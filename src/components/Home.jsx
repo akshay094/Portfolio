@@ -1,6 +1,6 @@
 import { Button } from 'react-bootstrap'
 import React from 'react'
-import { Container, Row, Col, Image } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import { ReactComponent as Img } from "../assets/images/home-img.svg"
 const Home = () => {
@@ -48,21 +48,21 @@ const Home = () => {
             <span className="m-3 text-primary text-capitalize fw-bold h3">My Interests</span>
           </Col>
           <Col lg={10} xs={10} md={10}>
-            <span>I am an avid coder , I enjoy learning new technologies & frameworks , most of the time I invest in making projects on the technologies I have learned. I also like to work on my improving my coding skills hence, I spend a lot of time on competitive sites like hackerrank , leetcode. <br /><span><i className="fw-bold">You can checkout my hackerrank profile <a href="https://www.hackerrank.com/akanojia_47">here</a> </i></span></span>
+            <span>I am an avid coder , I enjoy learning new technologies & frameworks , most of the time I invest in making projects on the technologies I have learned. I also like to work on improving my coding skills hence, I spend a lot of time on competitive sites like hackerrank , leetcode. <br /><span><i className="fw-bold">You can checkout my hackerrank profile <a href="https://www.hackerrank.com/akanojia_47">here</a> </i></span></span>
           </Col>
         </Row>
 
         <Row className="my-5 justify-content-center text-center">
           <Col lg={8} xs={8} md={8} className="my-3">
-            <span className="m-3 text-primary text-capitalize fw-bold h3">Certifications/Achievements</span>
+            <span className="m-3 text-primary text-capitalize fw-bold h3">Certifications  /<br />Achievements</span>
           </Col>
-          <Col lg={10} xs={10} md={10}>
+          <Col lg={10} xs={10} md={10} className="mx-auto">
             <span>
               Achieved 5 stars in Multiple Hackerrank modules -&gt; <br /><br /><i><b>Problem Solving , Python,C++ , 10 Days of JS , SQL</b></i>
             </span>
             <hr />
             <span>
-              Cleared the hackerrank verified skill tests for -&gt; <br /><br />
+              Cleared the hackerrank verified skill assessment tests for -&gt; <br /><br />
               <i><b>Python(Core) , Java(Core) , CSS , SQL , JavaScript(Intermediate)</b></i>
             </span>
           </Col>
