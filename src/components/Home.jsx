@@ -26,7 +26,7 @@ const Home = () => {
             <span className="text-capitalize fw-bold text-primary h3">Technologies & Skills</span>
           </Col>
           <Col lg={10} xs={10} md={10}>
-            <span>I am familiar with Html , CSS , JavaScript , Core Java,C/C++ , Python,Django , NodeJS , ReactJS & MySQL</span>
+            <span>I am familiar with Html , CSS , JavaScript , Core Java , C/C++ , Python , Django , NodeJS , ReactJS & MySQL</span>
           </Col>
         </Row>
         <Row className="my-5 justify-content-center text-center">
@@ -58,7 +58,7 @@ const Home = () => {
           </Col>
           <Col lg={10} xs={10} md={10} className="mx-auto">
             <span>
-              Achieved 5 stars in Multiple Hackerrank modules -&gt; <br /><br /><i><b>Problem Solving , Python, C++ , 10 Days of JS , SQL</b></i>
+              Achieved 5 stars in Multiple Hackerrank modules -&gt; <br /><br /><i><b>Problem Solving , Python , C++ , 10 Days of JS , SQL</b></i>
             </span>
             <hr />
             <span>
