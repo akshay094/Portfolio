@@ -29,6 +29,10 @@ const Projects = () => {
           <ProjectCard heading="Ecomm Add to cart" date="June 2021" desc="This is a ecommerce shopping site page that shows the implementation of add to cart functionality . All the data rendered on page is being fetched from a database table made using postgresql.The rows in table are manipualted using django ORM." link="#" source="https://github.com/akshay094/Django-eComm" disabled={true} />
 
           <ProjectCard heading="Node API" date="May 2021" desc="Built a restful API using NodeJs , MongoDB , ExpressJS & mongoose ODM.The API collects students data, complete implemetation of CRUD operations on the mongoDB client collection using mongoose." link="#" source="https://github.com/akshay094/NodeApi" disabled={true} />
+
+          <ProjectCard heading="REPL About Me Quiz App" date="May 2021" desc="This is a small REPL app. Built using JavaScript ,just built it as a part of learning js, it's a quiz with very funny options.You can play & enjoy it." link="https://replit.com/@AkshayKanojia/MyQuizApp?v=1" source="https://github.com/akshay094/REPLSelfQuiz" disabled={false} />
+
+          <ProjectCard heading="REPL F1 Quiz App" date="May 2021" desc="I am a big F1 fanatic , so I made this fun quiz app which you can play & learn some F1 facts.Built using JavaScript." link="https://replit.com/@AkshayKanojia/f1QUIZ?v=1" source="https://github.com/akshay094/F1Quiz" disabled={false} />
         </Row>
       </Container>
     </>
