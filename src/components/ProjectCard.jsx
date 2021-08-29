@@ -4,6 +4,7 @@ import { Col, Container, Row, Button, Form } from 'react-bootstrap'
 const ProjectCard = ({ heading, date, desc, link, source, disabled }) => {
   return (
     <>
+      <hr />
       <Container className="mt-5 pt-4 mb-5 pb-4">
         <Row className="text-center justify-content-center">
           <Col x={12} md={12} center>
@@ -29,7 +30,6 @@ const ProjectCard = ({ heading, date, desc, link, source, disabled }) => {
           </Col>
         </Row>
       </Container>
-      <hr />
     </>
   )
 }

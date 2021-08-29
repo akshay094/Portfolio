@@ -13,7 +13,6 @@ const Projects = () => {
         </Row>
       </Container>
       <Container className="mt-5 pt-5 mb-5 pb-5">
-        <hr />
         <Row>
           <ProjectCard heading="NetflixClone App" date="June 2021" desc="A movie streaming frontend made using react. Data being fetched from a TMDB movie API." link="https://netflix-clone-f0684.web.app/" source="https://github.com/akshay094/NetflixApp" disabled={false} />
 
